@@ -1,0 +1,9 @@
+fun main() {
+    println(exchangeRate(50))
+    
+}
+    
+fun exchangeRate(n: Int): Double{
+    var pesoToDollar = n * 56.8
+    return pesoToDollar
+}
